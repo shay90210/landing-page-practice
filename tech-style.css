@@ -1,0 +1,151 @@
+/*
+Color Palette - Backgrounds
+yellow        #feffdf
+soft gold     #dde0ab
+mint green    #97cba9
+ocean blue    #668ba4
+
+Color Palette - Font Colors
+
+light purple  #d5def5
+soft purple   #8594e4 
+purple        #6643b5
+dark purple   #430f58 
+Soft Green    #e3f6f5
+
+.first-color { 
+	background: #c54c82; 
+}
+	
+.second-color { 
+	background: #ec729c; 
+}
+
+.third-color { 
+	background: #f4aeba; 
+}
+
+.fourth-color { 
+	background: #fdfdcb; 
+}
+
+*/
+
+/*                 GLOBAL STYLES                     */
+body {
+    background: #fdfdcb;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    margin-left: 400px;
+    font-family: Luminari, fantasy;
+}
+h2 {
+    font-size: 20px;
+    margin-left: 310px;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+/*                 WEBPAGE IMAGE                     */
+.image-power {
+    background-image: url("/images/pexels-christina-morillo-1181421.jpg");
+    position: relative;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+}
+
+/*                 NAVIGATION BAR                    */
+.nav {
+    text-align: left;
+    background: #085f63;
+    padding-top: 30px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+.nav-link {
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+a:hover {
+    color: #e8630a;
+    cursor: pointer;
+}
+
+/*                 SIGN UP FORM                      */
+.my-form {
+    display: block;
+    margin-left: 275px;
+    width: 600px;
+    padding-top: 30px;
+}
+legend {
+    background: #d9b650;
+    border-radius: 10px;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+fieldset {
+    border-radius: 20px;
+    border: solid 10px #085f63;
+    background: #49beb7;
+}
+input[type="submit"] {
+    background: #d9b650;
+    border-radius: 10px;
+    border: solid #d9b650;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 510px;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 200px;
+}
+input[type="submit"]:hover {
+    background: #e8630a;
+    border: #e8630a;
+    color: white;
+    cursor: pointer;
+}
+input[type="text"],
+input[type="email"] + label {
+    width: auto;
+}
+.prefix-prime {
+    margin-right: 100px;
+}
+
+/*                 FOOTER                        */
+.about-privacy {
+    margin-right: 5px;
+}
+.about-legal {
+    margin-left: 5px;
+}
+.footer-rights {
+    background-color: #085f63;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
